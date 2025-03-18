@@ -33,4 +33,7 @@ export default defineConfig({
     restoreMocks: true,
     root: join(__dirname, 'test'),
   },
+  server: {
+    allowedHosts: ["normal-hamster-typically.ngrok-free.app"]
+  },
 });
